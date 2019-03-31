@@ -1,6 +1,6 @@
 import React from 'react';
 import GovernmentFixer from './GovernmentFixer';
-import './App.css';
+import '../css/App.css';
 
 export default function App() {
   return (
