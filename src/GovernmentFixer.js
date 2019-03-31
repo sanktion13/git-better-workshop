@@ -6,12 +6,12 @@ function solutionFor(size) {
     "We're working on it!";
 }
 
-export default function GovernmentFixer(props) {
+export default function GovernmentFixer({ size }) {
   return (
     <div>
       <h1>Government Fixer</h1>
-      <h2>Size of Government: {this.props.size}</h2>
-      <p>{solutionFor(this.props.size)}</p>
+      <h2>Size of Government: {size}</h2>
+      <p>{solutionFor(size)}</p>
     </div>
   );
 }
